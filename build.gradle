@@ -9,12 +9,12 @@ plugins {
 }
 
 version = scmVersion.version
-sourceCompatibility = 11
+sourceCompatibility = 8
 
 repositories {
     mavenCentral()
     jcenter()
-}
+}  
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
